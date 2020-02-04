@@ -1,0 +1,315 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+div.main{
+  box-shadow: 6px 6px 85px 8px rgba(0,0,0,0.75);
+}
+img.Profile-Pic{
+  border-radius: 50%;
+  margin-top: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Staatliches', cursive;
+}
+h1.name{
+  font-size: 32px;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
+div.title{
+  background-color: #383838;
+  height: 30px;
+}
+p.title-text{
+  /* color: white; */
+  margin-top: 5px;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+h1.contact-head{
+  font-size: 26px;
+  margin: 10px 0;
+}
+ul,li{
+  list-style: none;
+}
+div.contact-details{
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: start; */
+}
+div.contact-details ul li{
+  margin-bottom: 7px;
+}
+div.contact-details ul li i{
+  font-size: 22px;
+  margin-top: 5px;
+}
+div.contact-details ul li span{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  margin-top: -10px;
+  max-width: 28ch !important  ; 
+  font-size: 15px;
+}
+div.contact-details ul li:nth-of-type(1) span{
+  margin-left: 26px;
+}
+div.contact-details ul li:nth-of-type(4) span{
+  margin-left: 24px;
+}
+div.contact-hobbies ul li{
+  float: left;
+  margin: 10px 0;
+}
+div.contact-hobbies ul li i{
+  font-size: 22px;
+  background-color: #383838;
+  padding: 8px;
+  border-radius: 20px;
+  color: #FFC107;
+}
+div.contact-hobbies ul li span{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.profile-para-head{
+  color: #383838;
+  margin: 20px 0;
+  /* margin-right: 30px; */
+}
+.line{
+  height: 2px;
+}
+div.profile-desc p{
+  font-size: 13px;
+  text-align: center;
+}
+.Job-Title{
+  color: #383838;
+}
+.Job-Desc{
+  color: #383838;
+  font-size: 13px;
+  font-style: italic;
+  text-indent: 227px
+}
+div.social ul li{
+  float: left;
+  margin: 0 10px 0px 0;
+}
+div.social ul li i{
+  font-size: 22px;
+  background-color: #383838;
+  transition: all 1s;
+  padding: 10px 15px 10px 15px;
+  border-radius: 100%;
+  color: #FFC107;
+}
+div.social ul li i:hover{
+  background-color: #fff;
+  color: #333333;
+  cursor: pointer;
+  transition: all 1s;
+}
+.bggray{
+  color: #BDBDBD;
+}
+.deg-title{
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.formz{
+  min-height: 100vh;
+  position: relative;
+  padding: 10px 0;
+}
+.info p {
+  text-align:center;
+  text-transform:none;
+  font-weight:600;
+  font-size:15px;
+  margin-top:2px
+}
+
+.info i {
+  color:white !important;
+}
+.icon-case i{
+  color: white;
+}
+form h1 {
+  font-size: 18px;
+  background: #383838;
+  color: rgb(255, 255, 255);
+  padding: 22px 25px;
+  border-radius: 5px 5px 0px 0px;
+  margin: auto;
+  text-shadow: none; 
+  text-align:left
+}
+
+form {
+  border-radius: 5px;
+  max-width:1200px;
+  width:100%;
+  margin:0 auto;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+p span {
+  color: #F00;
+}
+
+p {
+  margin: 0px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+h1 {
+  text-align:center; 
+}
+
+input {
+  border-radius: 0px 5px 5px 0px;
+  border: 2px solid #FFC107;
+  margin-bottom: 15px;
+  width: 75%;
+  height: 42px;
+  float: left;
+  padding: 0px 15px;
+}
+
+a {
+  text-decoration:inherit
+}
+
+textarea {
+  border: 2px solid #FFC107;
+  margin: 0;
+  width: 75%;
+  height: 130px; 
+  float: left;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#AboutText{
+  width: 90%;
+  border-radius: 0px;
+}
+.form-group {
+  overflow: hidden;
+  clear: both;
+}
+
+.icon-case {
+  width: 35px;
+  float: left;
+  border-radius: 5px 0px 0px 5px;
+  background:#FFC107;
+  height:42px;
+  position: relative;
+  text-align: center;
+  line-height:40px;
+}
+.contentform {
+  padding: 10px 30px;
+}
+.bouton-contact{
+  background-color: #333333;
+  color: #FFF;
+  text-align: center;
+  width: 100%;
+  border:0;
+  padding: 17px 25px;
+  border-radius: 0px 0px 5px 5px;
+  cursor: pointer;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.leftcontact {
+  width:49.5%; 
+  float:left;
+  border-right: 1px dotted #CCC;
+  box-sizing: border-box;
+  padding: 0px 15px 0px 0px;
+}
+
+.rightcontact {
+  width:49.5%;
+  float:right;
+  box-sizing: border-box;
+  padding: 0px 0px 0px 15px;
+}
+input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+input[type=checkbox] {
+  display: none;
+}
+
+input[type=checkbox] + label:before {
+  content: "\2714";
+  border: 0.1em solid #FFC107;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  padding-left: 5px;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+  transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+  background-color: #FFC107;
+  border-color: #FFC107;
+  color: #fff;
+}
+
+input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+input[type="radio"]{
+  display: inline;
+  width: 25px;
+  height: 25px;
+}
+input[type="radio"] + span{
+  color: #333333;
+  font-family: 'Roboto', sans-serif;
+}
+.gender{
+  user-select: none;
+}
+input.NextInput:nth-of-type(1){
+  width: 50% !important;
+}
